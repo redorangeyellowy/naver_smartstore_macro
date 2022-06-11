@@ -24,3 +24,5 @@
 - 인코딩한 값을 `config.json`에 입력해줍니다.
 6. 파이썬 스크립트를 실행합니다.
 - `python3 run_macro.py --target "해당 상품 링크"
+- `sh: Pause: command not found`와 같은 에러가 뜬다면, 크롬 드라이버가 있는 디렉토리로 들어가, 아래 커맨드를 실행합니다.
+- `xattr -d com.apple.quarantine chromedriver`
