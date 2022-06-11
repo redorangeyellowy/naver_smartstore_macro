@@ -32,7 +32,7 @@ pip install selenium
 ```
 python3 run_macro.py --target "해당 상품 링크"
 ```
-- `sh: Pause: command not found`와 같은 에러가 뜬다면, 크롬 드라이버가 있는 디렉토리로 들어간 후 아래 커맨드를 실행합니다.
+- `UnboundLocalError: local variable 'driver' referenced before assignment`와 같은 에러가 뜬다면, 크롬 드라이버가 있는 디렉토리로 들어간 후 아래 커맨드를 실행합니다.
 ```
 xattr -d com.apple.quarantine chromedriver
 ```
